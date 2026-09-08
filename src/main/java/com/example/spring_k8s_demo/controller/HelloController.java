@@ -14,4 +14,10 @@ public class HelloController {
         return "Hello from Spring Boot kubaernates Demo";
     }
 
+    @GetMapping("/hello1")
+    public String hello1() {
+        log.info("Hello API request received1...");
+        return "Hello from Spring Boot kubaernates Demo1";
+    }
+
 }
