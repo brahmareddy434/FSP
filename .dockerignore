@@ -1,0 +1,7 @@
+.git
+
+.idea
+
+target/*.jar.original
+
+README.md
